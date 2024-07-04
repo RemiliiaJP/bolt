@@ -11,4 +11,4 @@ tag @s remove arrow_kill
 tag @s remove dead
 tag @s remove blownup
 scoreboard players reset @s kh_respawnTime
-effect clear @s 
+effect clear @s

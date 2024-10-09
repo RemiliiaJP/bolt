@@ -7,7 +7,6 @@ gamemode spectator @a
 title @a times 0 80 10
 title @a title ["",{"text":"Game Over! ","color":"red","bold":true}]
 title @a subtitle ["",{"selector":"@a[team=0ffa_leader]","bold":true},{"text":" has won!","color":"dark_gray","bold":true}]
-scoreboard players add @a[team=0ffa_leader] wins 1
 tellraw @a {"text":"\n\n\n\n","color":"aqua","bold":true}
 tellraw @a ["",{"text":"Game Over! ","color":"gold","bold":true},{"selector":"@a[team=0ffa_leader]","bold":true},{"text":" has won!","color":"dark_gray","bold":true}]
 tellraw @a[scores={gm_inGame=1}] {"text":"Your stats:","color":"gold","bold":true}

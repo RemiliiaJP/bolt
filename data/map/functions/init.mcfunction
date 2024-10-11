@@ -24,7 +24,7 @@ function game:init
 #0 mesa, fuji
 #1 ice, tomb
 #2 warehouse, neon
-#3 cavernns, Nether
+#3 cavernns
 #4 space
 #5 Nation
 #6 meadow

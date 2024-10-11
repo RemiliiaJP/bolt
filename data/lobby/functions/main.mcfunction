@@ -31,6 +31,3 @@ execute at @e[type=minecraft:armor_stand,tag=start,tag=sign] if block ~ ~ ~ ston
 
 #parkour
 function lobby:parkour/main
-
-# トラップドア
-function main:trapdoor_controll
